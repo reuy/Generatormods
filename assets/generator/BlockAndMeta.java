@@ -77,6 +77,8 @@ public class BlockAndMeta extends Tuple {
                 case 5:
                     return Blocks.dark_oak_stairs;
             }
+        }else{
+            return Blocks.stone_brick_stairs;
         }
         return get();
     }
